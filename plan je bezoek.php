@@ -42,7 +42,6 @@
         <p class="stay-over-text">Nog zin om door te gaan? Blijf overnachten.</p>
     </div>
 
-    <!-- Add the new sections here -->
     <div class="section">
         <h2>Section 1</h2>
         <p>This is the content of Section 1. It can contain paragraphs, images, and other elements.</p>
