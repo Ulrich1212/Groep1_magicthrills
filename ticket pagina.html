@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>tickets</title>
+    <link rel="stylesheet" type="text/css" href="styles.css">
+</head>
+<body>
+<h1>Koop Tickets</h1>
+<form action="process_order.php" method="post">
+  <label for="event">Selecteer soort ticket:</label>
+  <select id="event" name="event">
+    <option value="event1">normaal - $20</option>
+    <option value="event2">fright night - $30</option>
+    <option value="event3">bright night - $25</option>
+  </select>
+
+  <label for="quantity">Quantity:</label>
+  <input type="number" id="quantity" name="quantity" min="1" max="10" value="1">
+
+  <label for="name">Name:</label>
+  <input type="text" id="name" name="name" required>
+
+  <label for="email">Email:</label>
+  <input type="email" id="email" name="email" required>
+
+  <input type="submit" value="Buy Tickets">
+</form>
+</body>
+</html>
