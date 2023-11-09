@@ -11,7 +11,19 @@
 </head>
 
 <body>
-
+<nav>
+    <ul>
+        <li><a href="#menu">Menu</a></li>
+        <li><a href="#about">About Us</a></li>
+        <li><a href="#contact">Contact</a></li>
+        <li><a href="plan%20je%20bezoek.php">plan je bezoek</a></li>
+        <li><a href="eten%20en%20drinken.html">eten en drinken</a></li>
+        <li><a href="restaurants.html">restaurants</a></li>
+        <li><a href="facilities.html">facilities</a></li>
+        <li><a href="stay%20overnight.html.html">facilities</a></li>
+        <li><a href="environments.html">environments</a></li>
+    </ul>
+</nav>
 <div class="container">
     <h1 class="title">Plan je bezoek</h1>
     <div class="content">
